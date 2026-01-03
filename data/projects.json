@@ -1,0 +1,78 @@
+{
+  "projects": [
+    {
+      "id": "automl",
+      "title": "VertexML - A Model Training Platform",
+      "description": "End-to-end pipeline for dataset preprocessing, model selection, training, testing, and deployment.",
+      "tags": ["Machine Learning", "Python"],
+      "status": "Completed",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "News Automation",
+      "title": "AI News Automation Workflow",
+      "description": "This project retrieves the latest tech news, processes the top story, generates all required assets (script, prompts), creates the video using JSON2Video API, uploads the result to youtube directly, and finally sends you a Telegram message with the video link.",
+      "tags": ["N8N", "Youtube", "Telegram", "Json2Video API", "Automation"],
+      "status": "completed",
+      "githubUrl": "https://github.com/Nandan-2004/news-automation-workflow",
+      "resultUrl": "https://youtube.com/shorts/CcnRR5MaSp0",
+      "featured": true
+    },
+    {
+      "id": "legal-summarizer",
+      "title": "Automated Legal Document Summarizer",
+      "description": "FLAN-T5-based Streamlit app for automated legal summarization, extracting key facts and reasoning from PDFs to drastically reduce manual review time.",
+      "tags": ["NLP", "FLAN-T5", "Streamlit", "PDF Processing"],
+      "status": "completed",
+      "githubUrl": "https://github.com/Nandan-2004/Legal_summarizer",
+      "resultUrl": "https://legalsummarizerbot.streamlit.app/",
+      "featured": true
+    },
+    {
+      "id": "tech-news",
+      "title": "Automated Tech News Summarizer and Messenger",
+      "description": "Developed an n8n workflow using the Gemini 2.5 Pro LLM and NewsAPI to summarize hourly tech headlines and automatically deliver the condensed articles to Telegram.",
+      "tags": ["NLP", "Gemini API", "N8N", "Telegram Bot", "NewsAPI"],
+      "status": "completed",
+      "githubUrl": "https://github.com/Nandan-2004/GlobalTechNews-n8n-workflow",
+      "featured": true
+    },
+    {
+      "id": "object-detection",
+      "title": "Object Detection using YOLOv8",
+      "description": "Built a Python-based computer vision system for real-time object detection in video streams.",
+      "tags": ["Computer Vision", "YOLOv8", "Python", "Real-time Processing"],
+      "status": "completed",
+      "githubUrl": "https://github.com/Nandan-2004/DetectNCount",
+      "featured": true
+    },
+    {
+      "id": "hotel-management",
+      "title": "Hotel Management Website",
+      "description": "Designed a responsive static website for booking and service management using HTML and CSS, emphasizing user-friendly interface and seamless navigation.",
+      "tags": ["HTML", "CSS", "Web Design", "Responsive Design"],
+      "status": "completed",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "sentiment-analysis",
+      "title": "Multi-Modal Sentiment Analysis",
+      "description": "Engineered an NLP pipeline using BERT to analyze sentiment from both text and audio, enabling multi-dimensional insights and advanced sentiment prediction.",
+      "tags": ["NLP", "BERT", "Audio Processing", "Multi-Modal"],
+      "status": "Completed",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "smart-water",
+      "title": "Smart Water Monitoring System (IoT+ML)",
+      "description": "Developed an ESP32-based IoT solution for real-time water usage tracking, automated billing, and ML-driven forecasting.",
+      "tags": ["IoT", "ESP32", "Machine Learning", "Forecasting"],
+      "status": "Completed",
+      "githubUrl": null,
+      "featured": true
+    }
+  ]
+}
