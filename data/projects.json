@@ -6,7 +6,8 @@
       "description": "End-to-end pipeline for dataset preprocessing, model selection, training, testing, and deployment.",
       "tags": ["Machine Learning", "Python"],
       "status": "Completed",
-      "githubUrl": null,
+      "githubUrl": "https://github.com/Nandan-2004/VertexML-A-Model-Training-Platform",
+      "resultUrl": "https://vertexml-a-model-training-platform.streamlit.app/"
       "featured": true
     },
     {
