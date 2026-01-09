@@ -30,7 +30,9 @@ export function Hero() {
               View projects
             </a>
             <a
-              href="#"
+              href="https://drive.google.com/uc?export=download&id=1w-9-DJUcKIaaE9oyquM94J7pjzQTu87x"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg border border-slate-700 bg-slate-900/60 px-5 py-2.5 text-sm font-medium text-slate-100 transition hover:border-sky-500/80 hover:text-sky-200"
             >
               <FileText className="h-4 w-4" />
