@@ -92,21 +92,58 @@ export function Hero() {
             </div>
 
             <div className="space-y-3 text-xs text-slate-300">
-              <div className="flex items-center justify-between rounded-2xl bg-slate-900/80 px-3 py-2">
-                <span className="text-slate-400">Primary stack</span>
-                <span className="font-medium text-slate-100">
-                  Python · n8n · Streamlit
-                </span>
+              {/* Primary stack row with tech pills */}
+              <div className="rounded-2xl bg-slate-900/80 px-3 py-2">
+                <p className="text-slate-400">Primary stack</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <span className="rounded-full bg-slate-800 px-3 py-1 text-[11px] font-medium text-sky-200 shadow-[0_0_10px_rgba(56,189,248,0.25)]">
+                    Python
+                  </span>
+                  <span className="rounded-full bg-slate-800 px-3 py-1 text-[11px] font-medium text-sky-200/90">
+                    n8n
+                  </span>
+                  <span className="rounded-full bg-slate-800 px-3 py-1 text-[11px] font-medium text-sky-200/90">
+                    Streamlit
+                  </span>
+                </div>
               </div>
-              <div className="flex items-center justify-between rounded-2xl bg-slate-900/80 px-3 py-2">
-                <span className="text-slate-400">Focus areas</span>
-                <span className="font-medium text-slate-100">
-                  NLP · HTML · CSS  
-                </span>
+
+              {/* Focus areas row with tag pills */}
+              <div className="rounded-2xl bg-slate-900/80 px-3 py-2">
+                <p className="text-slate-400">Focus areas</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <span className="rounded-full bg-slate-800 px-3 py-1 text-[11px] font-medium text-violet-200/90">
+                    NLP
+                  </span>
+                  <span className="rounded-full bg-slate-800 px-3 py-1 text-[11px] font-medium text-violet-200/80">
+                    HTML
+                  </span>
+                  <span className="rounded-full bg-slate-800 px-3 py-1 text-[11px] font-medium text-violet-200/80">
+                    CSS
+                  </span>
+                </div>
               </div>
-              <div className="flex items-center justify-between rounded-2xl bg-slate-900/80 px-3 py-2">
-                <span className="text-slate-400">Projects shipped</span>
-                <span className="font-medium text-sky-300">8+</span>
+
+              {/* Projects shipped metric tile */}
+              <div className="rounded-2xl bg-slate-900/80 px-3 py-3">
+                <div className="flex items-center gap-4">
+                  {/* Circular metric badge */}
+                  <div className="relative flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-sky-400 to-emerald-400 text-sm font-semibold text-slate-950 shadow-[0_0_18px_rgba(34,211,238,0.8)]">
+                    <span>8+</span>
+                    <span className="pointer-events-none absolute inset-[2px] rounded-full border border-white/20" />
+                  </div>
+
+                  {/* Label + subtle underline */}
+                  <div className="flex-1">
+                    <p className="text-xs font-medium uppercase tracking-wide text-slate-400">
+                      Projects shipped
+                    </p>
+                    <p className="mt-1 text-[11px] text-slate-400">
+                      Production‑ready projects delivered across AI, automation, and web.
+                    </p>
+                    <div className="mt-2 h-px w-2/3 bg-gradient-to-r from-sky-400/60 via-cyan-300/40 to-transparent" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
