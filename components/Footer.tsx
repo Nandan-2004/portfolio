@@ -14,11 +14,11 @@ export function Footer() {
               Nandan Javagal
             </h3>
             <a
-              href="mailto:nandanjavgal444@gmail.com"
+              href="mailto:nandanjavagal444@gmail.com"
               className="flex items-center gap-2 hover:text-blue-400 transition-colors"
             >
               <Mail className="w-4 h-4" />
-              <span>nandanjavgal444@gmail.com</span>
+              <span>nandanjavagal444@gmail.com</span>
             </a>
           </div>
 

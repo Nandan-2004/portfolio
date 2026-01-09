@@ -49,11 +49,11 @@ export function Hero() {
               <span>+91-8277208861</span>
             </a>
             <a
-              href="mailto:nandanjavgal444@gmail.com"
+              href="mailto:nandanjavagal444@gmail.com"
               className="flex items-center gap-2 hover:text-sky-300"
             >
               <Mail className="h-4 w-4" />
-              <span>nandanjavgal444@gmail.com</span>
+              <span>nandanjavagal444@gmail.com</span>
             </a>
           </div>
 
